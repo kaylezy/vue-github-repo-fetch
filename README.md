@@ -1,6 +1,6 @@
-# Vue-githubRepo
+# Vue-githubRepoFetch
 
-This template should help get you started developing with Vue 3 in Vite.
+This project 
 
 ## Recommended IDE Setup
 
