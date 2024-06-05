@@ -18,9 +18,13 @@ const router = createRouter({
       component: () => import('../views/RepoView/RepoView.vue')
     },
     {
-      path: '/error/catch-all(.*)',
+      path: '/:catchAll(.*)',
       name: 'ErrorView',
-      component: () => import('../views/ErrorView/ErrorView.vue')
+      component: () => import('../views/ErrorView/ErrorView.vue'),
+      meta: {
+        title: '404 Not Found',
+        description: 'The page you are looking for does not exist.'
+      }
     },
 
     {
