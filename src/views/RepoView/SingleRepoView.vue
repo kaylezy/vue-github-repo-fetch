@@ -65,15 +65,17 @@ onMounted(async () => {
   border: 1px solid #00bd7e;
   border-radius: 10px;
   color: var(--color-text);
+  overflow: break-word;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 0.9rem;
+  overflow: break-word;
 }
 
 .repo-details {
   margin: 10px;
-  border-bottom:#00bd7e 1px solid;
+  border-bottom: #00bd7e 1px solid;
   width: 100%;
 }
 
@@ -92,18 +94,18 @@ p {
   margin-top: 20px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid #00bd7e;
-  border-radius: 10px;
-  color: var(--color-text);
-}
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #00bd7e;
+    border-radius: 10px;
+    color: var(--color-text);
+  }
 }
 </style>
